@@ -152,13 +152,21 @@
 // }
 // console.log(reverseString("happy holiday"));
 // version 2.
-function reverseString(str){
-    let reversed ="";
-    for(let i= str.length-1; i>=0; i--){
-        reversed+=str[i];
-    }
-    return reversed;
+// function reverseString(str){
+//     let reversed ="";
+//     for(let i= str.length-1; i>=0; i--){
+//         reversed+=str[i];
+//     }
+//     return reversed;
+// }
+// const string = 'happy holiday';
+// const reversedString=reverseString(string);
+// console.log(reversedString);
+// ამოცანა 5:
+// დაწერეთ ჯავასკრიპტის ფუნქცია, რომელიც იღებს მასივს და აბრუნებს ახალ მასივს,
+// მხოლოდ ლუწი რიცხვებით.
+function filterEvenNumbers(arr){
+ return arr.filter(num=>num % 2 === 0);
 }
-const string = 'happy holiday';
-const reversedString=reverseString(string);
-console.log(reversedString);
+console.log(filterEvenNumbers([5, 9, 4, 8, 10, 20, 7]));
+
