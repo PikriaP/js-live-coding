@@ -67,4 +67,62 @@
 // checkVariable(null);
 // checkVariable(newVariable);
 
+// ამოცანა 1:
+// მოცემული გაქვს HTML & css კოდი
+// <input id="value1" type="text" value="" /> x <span id="value2">1234</span> = <span id="total"
+// class="other">?</span>
+// ..........
+// .positive { color: green; }
+// .other { color: red; }
+// დაწერეთ ჯავასკრიპტის კოდი, რომელიც ინფუთში ჩაწერილ მნიშვნელობას გადაამრავლებს
+// 1234-ზე, რომელიც სტატიკურად ისედაც გაწერილია და ტოლობის მერე გამოაჩინეთ შედეგი.
+// თუ შედეგი დადებითი რიცხვი იქნება მწვანედ გამოაჩინეთ რიცხვი, ხოლო თუ ნული ან
+// ნულზე ნაკლები იქნება წითლად.
 
+// const value1Input = document.getElementById('value1');
+// const value2 = document.getElementById('value2').textContent;
+// const total = document.getElementById('total');
+
+// value1Input.addEventListener('input' , () => {
+//     const value1=parseFloat(value1Input.value);
+//     const result = value1 * value2;
+//     total.textContent=result;
+
+//     if(result>0){
+//         total.classList.remove('other');
+//         total.classList.add('positive');
+//     }else{
+//         total.classList.remove('positive');
+//         total.classList.add('other');
+//     }
+// });
+
+// ამოცანა 2:
+// დაწერეთ რიცხვები და გამოიტანეთ მაქსიმალური და მინიმალური სიდიდის რიცხვები.
+// function findMaxMin(arr) {
+//     const max = Math.max(...arr);
+//     const min = Math.min(...arr);
+// console.log(`Max: ${max}, Min: ${min}`);
+// }
+
+
+
+// findMaxMin([20, 25, 13, 2, 7]);
+
+// ამოცანა 3.
+// დაწერეთ კოდი, რომელიც მომხარებელს დააწერინებს სიტყვას და თქვენ ამ მნიშნველობას
+// შეამოწმებთ პალინდრომი არის თუ არა.
+
+// let word = prompt("please enter the  word to check: " );
+// function checkPalindrome(str) {
+//     const reversed = str.split(''). reverse(). join('');
+//     if(str === reversed){
+
+   
+//     console.log("it's a palindrome!");
+//      }else{
+//         console.log("it's not a palindrome");
+        
+//      }
+// }
+// checkPalindrome(word);
