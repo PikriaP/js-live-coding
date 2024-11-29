@@ -213,9 +213,33 @@
 // დაწერე ფუნქცია reverseString, რომელიც თავის ტანში შემოსულ სტრინგს დააბრუნებს
 // საპირისპირო მიმართულებით, გამოიყენეთ reverce()
 
-function reverseString (str) {
-    return str.split('').reverse().join('');
+// function reverseString (str) {
+//     return str.split('').reverse().join('');
 
-}
-console.log(reverseString("firuzi"));
+// }
+// console.log(reverseString("firuzi"));
 
+
+// ამოცანა 10:
+// დაწერე ფუნქცია checkVariable, რომელიც ამოწმებს არის თუ არა შემოსული ინფორმაცია,
+// უნდეფაინდი ან null და დაპრინტავს
+// The variable is undefined or null
+// The variable is neither undefined nor null
+// გადაეცით შემდეგი არგუმენტები :
+// let newVariable;
+// checkVariable(5);
+// checkVariable('hello');
+// checkVariable(null);
+// checkVariable(newVariable);
+
+// function checkVariable (variable){
+//     if (variable===undefined|| variable===null){
+//         console.log(" it is undefined or null");
+        
+//     }else{
+//         console.log(" neither undefined nor null");
+        
+//     }
+// }
+// let newVariable; 
+// checkVariable("");
