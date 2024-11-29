@@ -182,11 +182,29 @@
 // დაწერეთ პროგრამა, რომელიც მომხარებელს ჩააწერინებს სიტყვას და ეს სიტყვა უნდა
 // დააბრუნოთ sort() მეთოდის გამოყენებით ანბანის ბგერების თანმიმდევრობით. სიტყვის
 // მისაღებად გამოიყენეთ prompt ()
-function sortWord (){
-  const word = prompt("please enter a word: ");
-  const sortedWord = word.split('').sort().join('');
-  console.log(sortedWord);
+// function sortWord (){
+//   const word = prompt("please enter a word: ");
+//   const sortedWord = word.split('').sort().join('');
+//   console.log(sortedWord);
 
+// }
+
+// sortWord();
+
+
+// ამოცანა 8:
+// დაწერე ფუნქცია reverseString, რომელიც თავის ტანში დაატრიალებს for ციკლს და შემოსულ
+// სტრინგს დააბრუნებს საპირისპირო მიმართულებით. სტრინგი ჩააწერინეთ prompt ის
+// გამოყენებით მომხმარებელს.
+// მაგ ფრონტ >> //output // ტნორფ
+
+function reverseString (){
+    let str = prompt(" please enter a  word : ");
+    let reversed = "";
+    for (let i=str.length-1; i>= 0; i--){
+        reversed += str[i];
+    }
+    console.log(reversed);
+    
 }
-
-sortWord();
+reverseString();
