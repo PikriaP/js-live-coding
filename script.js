@@ -174,5 +174,19 @@
 // დაწერე ჯავასკრიპტ კოდი, რომელიც დააგენერირებს ჯავასკრიპტში რენდომ რიცხვს,
 // რომლის ფარგლები იქნება 20, ყოველი რენდომ რიცხვი უნდა იყოს მთელი რიცხვი.
 
-const randomNumber = Math.floor(Math.random()*20)+1;
-console.log(randomNumber);
+// const randomNumber = Math.floor(Math.random()*20)+1;
+// console.log(randomNumber);
+//   const randomNumber = Math.floor(Math.random()*20)+1;
+//   console.log(randomNumber);
+// ამოცანა 7:
+// დაწერეთ პროგრამა, რომელიც მომხარებელს ჩააწერინებს სიტყვას და ეს სიტყვა უნდა
+// დააბრუნოთ sort() მეთოდის გამოყენებით ანბანის ბგერების თანმიმდევრობით. სიტყვის
+// მისაღებად გამოიყენეთ prompt ()
+function sortWord (){
+  const word = prompt("please enter a word: ");
+  const sortedWord = word.split('').sort().join('');
+  console.log(sortedWord);
+
+}
+
+sortWord();
