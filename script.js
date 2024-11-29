@@ -165,8 +165,14 @@
 // ამოცანა 5:
 // დაწერეთ ჯავასკრიპტის ფუნქცია, რომელიც იღებს მასივს და აბრუნებს ახალ მასივს,
 // მხოლოდ ლუწი რიცხვებით.
-function filterEvenNumbers(arr){
- return arr.filter(num=>num % 2 === 0);
-}
-console.log(filterEvenNumbers([5, 9, 4, 8, 10, 20, 7]));
+// function filterEvenNumbers(arr){
+//  return arr.filter(num=>num % 2 === 0);
+// }
+// console.log(filterEvenNumbers([5, 9, 4, 8, 10, 20, 7]));
+// ამოცანა 6:
 
+// დაწერე ჯავასკრიპტ კოდი, რომელიც დააგენერირებს ჯავასკრიპტში რენდომ რიცხვს,
+// რომლის ფარგლები იქნება 20, ყოველი რენდომ რიცხვი უნდა იყოს მთელი რიცხვი.
+
+const randomNumber = Math.floor(Math.random()*20)+1;
+console.log(randomNumber);
