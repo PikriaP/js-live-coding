@@ -143,3 +143,11 @@
 //     console.log(` ${word} is not a palindrome`);
       
 // }
+
+// ამოაცანა 4.
+// დაწერეთ ჯავასკრიპტის კოდი რომელიც საპირისპირო მიმართულებით დააყენებს სტრინგის
+// მნიშნველობებს.
+// function reverseString (str) {
+//     return str.split('').reverse().join('');
+// }
+// console.log(reverseString("happy holiday"));
