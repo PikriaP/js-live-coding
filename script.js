@@ -198,13 +198,24 @@
 // გამოყენებით მომხმარებელს.
 // მაგ ფრონტ >> //output // ტნორფ
 
-function reverseString (){
-    let str = prompt(" please enter a  word : ");
-    let reversed = "";
-    for (let i=str.length-1; i>= 0; i--){
-        reversed += str[i];
-    }
-    console.log(reversed);
+// function reverseString (){
+//     let str = prompt(" please enter a  word : ");
+//     let reversed = "";
+//     for (let i=str.length-1; i>= 0; i--){
+//         reversed += str[i];
+//     }
+//     console.log(reversed);
     
+// }
+// reverseString();
+
+// ამოცანა 9:
+// დაწერე ფუნქცია reverseString, რომელიც თავის ტანში შემოსულ სტრინგს დააბრუნებს
+// საპირისპირო მიმართულებით, გამოიყენეთ reverce()
+
+function reverseString (str) {
+    return str.split('').reverse().join('');
+
 }
-reverseString();
+console.log(reverseString("firuzi"));
+
