@@ -243,3 +243,5 @@
 // }
 // let newVariable; 
 // checkVariable("");
+
+const value1Input = document.getElementById('value1');
